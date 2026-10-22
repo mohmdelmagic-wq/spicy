@@ -1,0 +1,88 @@
+body {
+    background-color: #0d1b1e;
+    color: #f4ebd9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #091315;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo {
+    font-size: 1.5rem;
+    color: #d4af37;
+    font-weight: bold;
+}
+nav a {
+    color: #f4ebd9;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+.btn-book {
+    border: 1px solid #d4af37;
+    padding: 8px 16px;
+    color: #d4af37;
+    border-radius: 20px;
+}
+
+
+header {
+    padding: 60px 20px;
+}
+header p {
+    color: #d4af37;
+    letter-spacing: 2px;
+}
+header h1 {
+    font-size: 2.8rem;
+    margin-top: 10px;
+}
+
+
+.menu-section {
+    padding: 30px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.menu-section h2 {
+    color: #d4af37;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 5%;
+}
+.gallery-item {
+    width: 30%;
+    min-width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer {
+    background-color: #091315;
+    padding: 25px 20px;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #ccc;
+}
